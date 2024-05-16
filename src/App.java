@@ -40,15 +40,15 @@ import josselynpozo.WhileNombreJ;
             wdm.dowhileletraM(5);
     
 
-            ForNombreJosJ.imprimirLetraJ(7,'@');
-            ForApellidoP.imprimirLetraP(7, '-');
-            ForJP.ForImprimirLetrasJP(7, '#');
-            WhileNombreJ.imprimirLetraJ (7, '~');
-            WhileApellidoP.imprimirLetraP (7, '=');
-            WhileJP.whileImprimirLetrasJP (7, '%');
-            DoWhileNombreJ.imprimirLetraJ(7, '°');
-            DoWhileApellidoP.imprimirLetraP(7,'#');
-            DoWhileJP.DoWhileImprimirLetrasJP(7, '+');
+            ForNombreJosJ.imprimirLetraJ(6,'@');
+            ForApellidoP.imprimirLetraP(6 , '-');
+            ForJP.ForImprimirLetrasJP(6, '#');
+            WhileNombreJ.imprimirLetraJ (6, '~');
+            WhileApellidoP.imprimirLetraP (6, '=');
+            WhileJP.whileImprimirLetrasJP (6, '%');
+            DoWhileNombreJ.imprimirLetraJ(6, '°');
+            DoWhileApellidoP.imprimirLetraP(6,'#');
+            DoWhileJP.DoWhileImprimirLetrasJP(6, '+');
         
 
             forGelenG.imprimirLetraG (7, '~');

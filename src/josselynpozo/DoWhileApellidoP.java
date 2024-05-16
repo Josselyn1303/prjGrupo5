@@ -1,20 +1,30 @@
 package josselynpozo;
 
 public class DoWhileApellidoP {
-    public static void imprimirLetraP(int tamano2, char caracter2) {
-        System.out.println("\nLetra P");
+    public static void imprimirLetraP(int tamano, char caracter) {
+        System.out.println();
+        System.out.println("\nLetra P - Do-While");
         int i = 0;
-        do{
-            int j = 0;
-            do {
-                if (j == 0 || (i == 0 || i == tamano2 / 2) && j < caracter2 - 1)
-                    System.out.print("#");
-                else
-                    System.out.print(" ");
-                j++;
-            } while (j < caracter2);
-            System.out.println();
+        do {
+            System.out.print("*");
             i++;
-        } while (i < tamano2);
+        } while (i < tamano);
+        System.out.println();
+        
+        int j = 1;
+        do {
+            int k = 1;
+            do {
+                if (k == 1 || k == 1 || tamano/2 == j || (k == tamano && j <= tamano/2)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+                k++;
+            } while (k <= tamano);
+            System.out.println(" ");
+            j++;
+        } while (j <= tamano);
     }
+    
 }

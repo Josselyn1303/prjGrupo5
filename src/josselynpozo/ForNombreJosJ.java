@@ -2,7 +2,7 @@ package josselynpozo;
 
 public class ForNombreJosJ {
     public static void imprimirLetraJ(int tamano, char caracter) {
-        System.out.println("Letra J");
+        System.out.println("Letra J - For");
         System.out.println();
         for (int i = 0; i < tamano ; i++){
             System.out.print(caracter);
