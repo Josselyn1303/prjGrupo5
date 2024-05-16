@@ -30,5 +30,7 @@ public class DoWhileMateoMosqueraMM {
             System.out.println(b + "");
             i++;
         } while (i < n);
+        System.out.println("======================");
+
     }
 }

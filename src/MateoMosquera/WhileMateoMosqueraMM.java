@@ -31,5 +31,7 @@ public class WhileMateoMosqueraMM {
             System.out.println(b + "");
             i++;
         }
+        System.out.println("======================");
+
     }
 }

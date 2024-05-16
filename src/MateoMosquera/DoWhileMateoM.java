@@ -2,6 +2,7 @@ public class DoWhileMateoM {
     public void dowhileletraM(int n) {
         String b = "\u001B[0m";
         String verde= "\033[32m";
+        System.out.println("Letra M con el DoWhile");
         int i = 0;
         do {
             int j = 0;

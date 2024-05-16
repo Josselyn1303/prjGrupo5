@@ -25,5 +25,7 @@ public class ForMateoMosqueraMM {
 
             System.out.println(b + "");
         }
+        System.out.println("======================");
+
     }
 }

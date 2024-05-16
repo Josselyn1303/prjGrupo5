@@ -2,6 +2,7 @@ public class WhileMateoM {
     public void whileletraM(int n) {
         String b = "\u001B[0m";
         String verde= "\033[32m";
+        System.out.println("Letra M con el  While");
         int i = 0;
         while (i < n) {
             int j = 0;
