@@ -1,5 +1,7 @@
+package GelenOrtiz;
 public class whileOrtizO {
     public static void imprimirLetraO(int tamano2, char caracter2) {
+        System.out.println("While: Letra O");
         int i = 0;
         while (i < tamano2) {
             int j = 0;

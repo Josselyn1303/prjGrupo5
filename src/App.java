@@ -1,3 +1,13 @@
+import GelenOrtiz.doWhileGelenG;
+import GelenOrtiz.doWhileGelenOrtizGO;
+import GelenOrtiz.doWhileOrtizO;
+import GelenOrtiz.forGelenG;
+import GelenOrtiz.forGelenOrtizGO;
+import GelenOrtiz.forOrtizO;
+import GelenOrtiz.whileGelenG;
+import GelenOrtiz.whileGelenOrtizGO;
+import GelenOrtiz.whileOrtizO;
+
 public class App {
     public static void main(String[] args) throws Exception {
         
@@ -9,6 +19,6 @@ public class App {
         whileGelenOrtizGO.whileImprimirLetrasGO (7, '?');
         doWhileGelenG.imprimirLetraG(7, '°');
         doWhileOrtizO.imprimirLetraO(7,'/');
-        doWhileGelenOrtizGO.dWhileImprimirLetrasGO(7, '^');
+        doWhileGelenOrtizGO.doWhileImprimirLetrasGO(7, '^');
     }
 }

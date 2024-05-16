@@ -1,6 +1,7 @@
+package GelenOrtiz;
 public class doWhileOrtizO {
     public static void imprimirLetraO(int tamano2, char caracter2) {
-        System.out.println("Letra O");
+        System.out.println("doWhile: Letra O");
         int i = 0;
         do {
             int j = 0;
