@@ -1,18 +1,12 @@
-
-
-import josselynpozo.DoWhileApellidoP;
-import josselynpozo.DoWhileJP;
-import josselynpozo.DoWhileNombreJ;
-import josselynpozo.ForApellidoP;
-import josselynpozo.ForJP;
-import josselynpozo.ForNombreJosJ;
-import josselynpozo.WhileApellidoP;
-import josselynpozo.WhileJP;
-import josselynpozo.WhileNombreJ;
+import josselynpozo.*;
+import MateoMosquera.*;
+import GelenOrtiz.*;
 
     public class App {
         public static void main(String[] args)throws Exception{
 
+            int filas = 8;
+            int columnas = 8;
             ForMateoM fm;
             ForMosqueraM fmm;
             WhileMateoM wh;
@@ -60,5 +54,30 @@ import josselynpozo.WhileNombreJ;
             doWhileGelenG.imprimirLetraG(7, '°');
             doWhileOrtizO.imprimirLetraO(7,'/');
             doWhileGelenOrtizGO.dWhileImprimirLetrasGO(7, '^');
+
+            ForJoseJ  j = new ForJoseJ(filas, columnas);
+            ForJoseQ  q = new ForJoseQ(filas, columnas);
+            ForJoseJQ  jq = new ForJoseJQ(filas, columnas);
+
+            WhileJoseJ  j1 = new WhileJoseJ(filas, columnas);
+            WhileJoseQ  q1 = new WhileJoseQ(filas, columnas);
+            WhileJoseJQ  jq1 = new WhileJoseJQ(filas, columnas);
+
+            DowhileJoseJ  j2 = new DowhileJoseJ(filas, columnas);
+            DowhileJoseQ  q2 = new DowhileJoseQ(filas, columnas);
+            DowhileJoseJQ  jq2 = new DowhileJoseJQ(filas, columnas);
+
+            j.imprimir();
+            q.imprimir();
+            jq.imprimir();
+
+            j1.imprimir();
+            q1.imprimir();
+            jq1.imprimir();
+
+            j2.imprimir();
+            q2.imprimir();
+            jq2.imprimir();
+
         }
     }
